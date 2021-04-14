@@ -9,7 +9,8 @@ contract MyContract{
        state = State.Waiting;
     }
     
-    function activate() public {
+    function activate() public 
+    {
         state = State.Active;
     }
     

@@ -19,7 +19,8 @@ contract MyContract{
         return state == State.Active;
     }
     
-    function ready() public {
+    function ready() public 
+    {
         state = State.Ready;
     }
 

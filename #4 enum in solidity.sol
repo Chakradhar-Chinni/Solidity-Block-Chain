@@ -26,7 +26,6 @@ contract MyContract{
 
 }
 
-
 /*
    enum has the 3 values Waiting,Ready,Active.  [0,1,2]
    A constructor is used to defaultly set the value as Waiting.

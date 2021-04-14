@@ -4,7 +4,8 @@ contract MyContract{
     enum State {Waiting, Ready, Active}
     State public state;
     
-    constructor() public {
+    constructor() public 
+    {
        state = State.Waiting;
     }
     

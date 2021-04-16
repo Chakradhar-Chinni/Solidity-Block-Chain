@@ -4,10 +4,7 @@ contract MyContract
 {
     uint256 public peopleCount=0;
     mapping(uint => Person) public people;
-  
-    
-    
-    
+      
     struct Person
     {
         uint _id;

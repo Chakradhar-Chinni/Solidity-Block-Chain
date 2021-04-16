@@ -8,4 +8,4 @@ contract MyContract{
 }
 
 
-The above value can be changed from the IDE and deployed again to get the updated value
+//The above value can be changed from the IDE and deployed again to get the updated value

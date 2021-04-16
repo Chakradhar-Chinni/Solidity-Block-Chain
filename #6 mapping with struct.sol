@@ -4,7 +4,7 @@ contract MyContract
 {
     uint256 public peopleCount=0;
     mapping(uint => Person) public people;
-    //Person[] public people;
+  
     
     
     
@@ -16,7 +16,11 @@ contract MyContract
     }
     
     function addPerson(string memory _firstName,string memory _lastName) public {
-        peopleCount +=1;
+        incrementCount();
         people[peopleCount] = Person(peopleCount, _firstName, _lastName);
+    }
+    
+    function incrementCount() internal{
+        peopleCount += 1
     }
 }

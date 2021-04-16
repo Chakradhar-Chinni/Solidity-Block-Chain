@@ -21,6 +21,6 @@ contract MyContract
     }
     
     function incrementCount() internal{
-        peopleCount += 1
+        peopleCount += 1;
     }
 }

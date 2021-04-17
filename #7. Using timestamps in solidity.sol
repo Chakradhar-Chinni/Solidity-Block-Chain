@@ -28,3 +28,6 @@ contract MyContract
         peopleCount += 1;
     }
 }
+
+//The value in uint256 OpeningTime is the current value of eponch converter(epochconverter.com) 
+//the function allows the transaction on the smart contract 'onlyWhileOpen' only if the timestamp has crossed the OpeningTime 'modifier onlyWhileOpen()'

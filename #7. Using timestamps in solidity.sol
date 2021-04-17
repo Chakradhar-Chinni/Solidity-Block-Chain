@@ -8,7 +8,7 @@ contract MyContract
     uint256 OpeningTime = 1618638090;
     modifier onlyWhileOpen()
     {
-        require(block.timestamp >= OpeningTime);
+        require(block.timestamp >= OpeningTime);  //performing a transaction after a certain time
         _;
     }
     
